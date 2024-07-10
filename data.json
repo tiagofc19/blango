@@ -1,0 +1,173 @@
+[
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2024-06-24T23:11:21.510Z",
+      "modified_at": "2024-06-24T23:11:21.529Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "creator": 1,
+      "content": "Tokyo is cool!",
+      "content_type": 8,
+      "object_id": 3,
+      "created_at": "2024-06-25T23:24:29.273Z",
+      "modified_at": "2024-06-25T23:24:29.273Z"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "django"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+      "value": "example"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 3,
+    "fields": {
+      "value": "second"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 4,
+    "fields": {
+      "value": "Technology"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 5,
+    "fields": {
+      "value": "Travel"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 6,
+    "fields": {
+      "value": "Food"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-06-24T22:00:12.570Z",
+      "modified_at": "2024-06-24T22:00:12.570Z",
+      "published_at": "2024-06-24T21:58:36Z",
+      "title": "An Example Post",
+      "slug": "an-example-post",
+      "summary": "Short summary",
+      "content": "<h3> Example </h3>\r\n<p> Example </p>",
+      "tags": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-06-25T10:50:51.360Z",
+      "modified_at": "2024-06-25T10:52:50.075Z",
+      "published_at": "2024-06-25T10:52:36Z",
+      "title": "Introduction to Django",
+      "slug": "introduction-to-django",
+      "summary": "A beginner's guide to Django web framework.",
+      "content": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "tags": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-06-25T10:51:24.893Z",
+      "modified_at": "2024-06-25T10:53:03.439Z",
+      "published_at": "2024-06-03T10:52:58Z",
+      "title": "Exploring Tokyo",
+      "slug": "exploring-tokyo",
+      "summary": "A travelogue of my recent trip to Tokyo.",
+      "content": "Tokyo, the capital of Japan, is a bustling metropolis that blends modernity with tradition.",
+      "tags": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-06-25T10:51:45.955Z",
+      "modified_at": "2024-06-25T10:53:17.014Z",
+      "published_at": "2024-06-16T00:00:00Z",
+      "title": "Best Pizza Places in New York",
+      "slug": "best-pizza-places-in-new-york",
+      "summary": "A review of the top pizza places in New York City.",
+      "content": "New York is famous for its pizza, and here are some of the best places to try it out.",
+      "tags": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$eKGr0sqy22nB64z2hJyTou$6RMEmn22vIQWopqnNZNfLombt+6HFK8E9dItSAzQ+kc=",
+      "last_login": "2024-07-03T06:51:20.049Z",
+      "is_superuser": true,
+      "username": "codio",
+      "first_name": "Tiago",
+      "last_name": "Coelho",
+      "email": "codio@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-06-24T19:46:30Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$2rbe2kiVODWdUEO8Hrj8MX$inlMyAo0L2xeW4fHREaOXEg6CwqtFPrlQplduUCtm+o=",
+      "last_login": "2024-06-25T10:42:32Z",
+      "is_superuser": false,
+      "username": "codio2",
+      "first_name": "C",
+      "last_name": "C",
+      "email": "tiagofc2000@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-25T10:42:18Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
